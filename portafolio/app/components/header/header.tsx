@@ -13,13 +13,17 @@ let HeaderData:String = 'Leslie Danaé González Hernández'
 // diferencia entre ambas:  class es para html y className para Next js
 // ctrl + f 
 //link (no recarga toda la página) y prefetch automatico de paginas
-//hice el commit de 
+//hice el commit de variable HeaderData con mi nombre
+//colocamos los demas datos y hacemos los commits
+let profession: string = 'Licenciada en Matematicas Aplicadas y Computación' //aparece justo alao de mi nombre, i dont liked
+
 export default function Header(){
     return (//pegamos la secion de header 
         <header className={styles.header} id="header">
             <nav className={styles.nav}>
                 <Link href="#home" className={styles.nav__logo}>
                     <span className={styles.logo__bracket}>&lt;</span>{HeaderData}<span className={styles.logo__bracket}>/&gt;</span>
+                    <span> | {profession} </span>
                 </Link>
                 
             
