@@ -13,7 +13,7 @@ let HeaderData:String = 'Leslie Danaé González Hernández'
 // diferencia entre ambas:  class es para html y className para Next js
 // ctrl + f 
 //link (no recarga toda la página) y prefetch automatico de paginas
-
+//hice el commit de 
 export default function Header(){
     return (//pegamos la secion de header 
         <header className={styles.header} id="header">
