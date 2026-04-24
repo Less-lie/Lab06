@@ -68,7 +68,7 @@ export default function Contact() {
                         <div className={styles.contact__card}>
                             <h3 className={styles.contact__card_title}>¿Lista para comenzar?</h3>
                             <p className={styles.contact__card_text}>
-                                Envíame un mensaje y te responderé lo antes posible.
+                                Envíame un mensaje y lo atenderé lo antes posible.
                             </p>
                             <Link href={`mailto:${email}`} className="btn btn--primary btn--large btn--full">
                                 <i className="fas fa-paper-plane"></i> Enviar mensaje
