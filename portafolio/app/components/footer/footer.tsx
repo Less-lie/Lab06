@@ -38,7 +38,7 @@ export default function Footer() {
 
                 <div className={styles.footer__bottom}>
                     <p className={styles.footer__copyright}>
-                        &copy; {year} {name}. Todos los derechos reservados.
+                        &copy; {year} {name}. Los derechos reservados.
                     </p>
                     <p className={styles.footer__made}>
                         Hecho con <i className="fas fa-heart"></i> y mucho <i className="fas fa-coffee"></i>
