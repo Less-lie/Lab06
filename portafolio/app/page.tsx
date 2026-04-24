@@ -4,6 +4,7 @@ import Hero from "./components/hero/hero"; //commit 2
 import Interests from "./components/interests/interests"; //commit 3
 import CV from "./components/cv/cv";//commit 4
 import Projects from "./components/projects/projects";
+import Contact from "./components/contact/contact";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
     <Interests />
     <CV />
     <Projects />
+    <Contact />
     </>
   );
 }
