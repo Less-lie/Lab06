@@ -15,15 +15,15 @@ let HeaderData:String = 'Leslie Danaé González Hernández'
 //link (no recarga toda la página) y prefetch automatico de paginas
 //hice el commit de variable HeaderData con mi nombre
 //colocamos los demas datos y hacemos los commits
-let profession: string = 'Licenciada en Matematicas Aplicadas y Computación' //aparece justo alao de mi nombre, i dont liked
-
+//let profession: string = 'Lic. en Matematicas Aplicadas y Computación' 
+//let email: string = 'danae.gonher2@gmail.com'
+//let phone: string = '55 91 07 77 72'
 export default function Header(){
     return (//pegamos la secion de header 
         <header className={styles.header} id="header">
             <nav className={styles.nav}>
                 <Link href="#home" className={styles.nav__logo}>
                     <span className={styles.logo__bracket}>&lt;</span>{HeaderData}<span className={styles.logo__bracket}>/&gt;</span>
-                    <span> | {profession} </span>
                 </Link>
                 
             
@@ -67,5 +67,6 @@ export default function Header(){
                 </div>
             </nav>
         </header>
+
     );
 }
